@@ -20,6 +20,9 @@ jobs:
       #- name: Setup project
       #  run: make setup
 
+      - name: composer
+        run: composer install
+
       - name: Check lint
         run: make lint
 
